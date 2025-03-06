@@ -8,6 +8,13 @@ The webhook endpoint is used to **receive and process messages** sent to your Wh
 
 ---
 
+## ⚠️ Important Note  
+
+**This project uses ngrok to expose the localhost server publicly for webhook communication.**  
+Since WhatsApp Cloud API requires a **public URL** to receive webhook events, **ngrok is used to create a secure tunnel** to the local development environment.  
+
+---
+
 ## ✨ Features  
 
 - 📩 **Receive Incoming Messages** – Captures messages from WhatsApp Cloud API.  
