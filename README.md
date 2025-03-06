@@ -24,9 +24,11 @@ Since WhatsApp Cloud API requires a **public URL** to receive webhook events, **
 
 ---
 
-## 🎥 Video Project Demontration
+## 🎥 Video Project Demonstration  
 
-**Link:** https://drive.google.com/file/d/1i1OxbHqiaC0RVuhrh1tcw2HYOWyoghWo/view?usp=sharing
+**Link:** [Watch Here](https://drive.google.com/file/d/1i1OxbHqiaC0RVuhrh1tcw2HYOWyoghWo/view?usp=sharing)  
+
+---
 
 ## 📸 Screenshots  
 
@@ -38,22 +40,15 @@ Since WhatsApp Cloud API requires a **public URL** to receive webhook events, **
 
 ## 🔧 Environment Setup  
 
-### **1️⃣ Create a `.env` File**  
+### **1️⃣ Install Dependencies**  
 
-Before running the project, create a `.env` file in the root directory and add the following:  
+Before running the project, navigate to the project directory and install dependencies using:  
 
-```plaintext
-# OpenAI API Key
-OPENAI_API_KEY="your-openai-api-key"
+```bash
+npm install
 
-# MongoDB Connection
-MONGODB_URI="your-mongodb-connection-string"
+### **1️2️⃣ Run this project**  
 
-# WhatsApp API Credentials
-WHATSAPP_PHONE_NUMBER="your-whatsapp-phone-number"
-WHATSAPP_TOKEN="your-whatsapp-api-token"
-
-# Pinecone Vector Database Credentials
-PINECONE_API_KEY="your-pinecone-api-key"
-PINECONE_INDEX_NAME="your-pinecone-index-name"
-PINECONE_ENVIRONMENT="your-pinecone-environment"
+``bash
+npm run dev
+npm run ngrok
