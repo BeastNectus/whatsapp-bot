@@ -16,6 +16,5 @@ The webhook endpoint is used to receive and process messages sent to your WhatsA
 
 ## Screenshots
 
-![Screenshot 2025-03-06 183806](https://github.com/user-attachments/assets/ffa16501-0470-4e76-8c93-372708c51e0f)
-![Screenshot 2025-03-06 183816](https://github.com/user-attachments/assets/5b9eb492-3e4d-4344-9e39-1f3ff9ce92e8)
-![Screenshot 2025-03-06 183826](https://github.com/user-attachments/assets/1e04b536-5dd2-486a-a7c8-5c35eee40bf9)
+![image](https://github.com/user-attachments/assets/bfb4fbf4-8814-4996-ad4d-7032c6d982c1)
+
