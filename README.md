@@ -49,6 +49,6 @@ npm install
 
 ### **1️2️⃣ Run this project**  
 
-``bash
+```bash
 npm run dev
 npm run ngrok
