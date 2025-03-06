@@ -6,7 +6,7 @@ This project integrates **WhatsApp Cloud API**, **OpenAI**, **MongoDB**, and **P
 
 The webhook endpoint is used to **receive and process messages** sent to your WhatsApp Business Account, enabling seamless customer communication and automated responses.  
 
-**Note:** I used ngrok to run my localhost project publicly.
+---
 
 ## ✨ Features  
 
@@ -25,11 +25,24 @@ The webhook endpoint is used to **receive and process messages** sent to your Wh
 
 ---
 
-## 🔧 Webhook Setup  
+## 🔧 Environment Setup  
 
-### **1️⃣ Webhook URL**  
+### **1️⃣ Create a `.env` File**  
 
-The webhook endpoint for handling WhatsApp messages:  
+Before running the project, create a `.env` file in the root directory and add the following:  
 
 ```plaintext
-https://your-ngrok-url/api/admin/webhook
+# OpenAI API Key
+OPENAI_API_KEY="your-openai-api-key"
+
+# MongoDB Connection
+MONGODB_URI="your-mongodb-connection-string"
+
+# WhatsApp API Credentials
+WHATSAPP_PHONE_NUMBER="your-whatsapp-phone-number"
+WHATSAPP_TOKEN="your-whatsapp-api-token"
+
+# Pinecone Vector Database Credentials
+PINECONE_API_KEY="your-pinecone-api-key"
+PINECONE_INDEX_NAME="your-pinecone-index-name"
+PINECONE_ENVIRONMENT="your-pinecone-environment"
