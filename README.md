@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WhatsApp AI Order Processing System - Webhook Integration
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project integrates **WhatsApp Cloud API**, **OpenAI**, **MongoDB**, and **Pinecone vector database** to automate order processing and customer interactions via WhatsApp.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The webhook endpoint is used to receive and process messages sent to your WhatsApp Business Account.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📩 **Receives incoming messages** from WhatsApp Cloud API.
+- 🗄️ **Stores conversations** in MongoDB.
+- 🤖 **Uses AI (OpenAI)** to generate smart responses.
+- 🛒 **Handles product inquiries and order placements.**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Screenshot 2025-03-06 183806](https://github.com/user-attachments/assets/ffa16501-0470-4e76-8c93-372708c51e0f)
+![Screenshot 2025-03-06 183816](https://github.com/user-attachments/assets/5b9eb492-3e4d-4344-9e39-1f3ff9ce92e8)
+![Screenshot 2025-03-06 183826](https://github.com/user-attachments/assets/1e04b536-5dd2-486a-a7c8-5c35eee40bf9)
