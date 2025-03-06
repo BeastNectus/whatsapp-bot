@@ -4,9 +4,9 @@
 
 This project integrates **WhatsApp Cloud API**, **OpenAI**, **MongoDB**, and **Pinecone vector database** to automate order processing and customer interactions via WhatsApp.  
 
-**Note:** I used ngrok to host my localhost project publicly.
-
 The webhook endpoint is used to **receive and process messages** sent to your WhatsApp Business Account, enabling seamless customer communication and automated responses.  
+
+**Note:** I used ngrok to host my localhost project publicly.
 
 ## ✨ Features  
 
