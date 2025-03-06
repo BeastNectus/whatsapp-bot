@@ -46,9 +46,5 @@ Before running the project, navigate to the project directory and install depend
 
 ```bash
 npm install
-
-### **1️2️⃣ Run this project**  
-
-```bash
 npm run dev
 npm run ngrok
