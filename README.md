@@ -18,3 +18,4 @@ The webhook endpoint is used to receive and process messages sent to your WhatsA
 
 ![image](https://github.com/user-attachments/assets/bfb4fbf4-8814-4996-ad4d-7032c6d982c1)
 
+## Postman API Documentation: https://documenter.getpostman.com/view/40519609/2sAYdmknjb
