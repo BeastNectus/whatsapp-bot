@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📲 WhatsApp AI Order Processing System - Webhook Integration
 
-## Getting Started
+## 🚀 Overview  
 
-First, run the development server:
+This project integrates **WhatsApp Cloud API**, **OpenAI**, **MongoDB**, and **Pinecone vector database** to automate order processing and customer interactions via WhatsApp.  
+
+The webhook endpoint is used to **receive and process messages** sent to your WhatsApp Business Account, enabling seamless customer communication and automated responses.  
+
+---
+
+## ⚠️ Important Note  
+
+**This project uses ngrok to expose the localhost server publicly for webhook communication.**  
+Since WhatsApp Cloud API requires a **public URL** to receive webhook events, **ngrok is used to create a secure tunnel** to the local development environment.  
+
+---
+
+## ✨ Features  
+
+- 📩 **Receive Incoming Messages** – Captures messages from WhatsApp Cloud API.  
+- 🗄️ **Store Conversations** – Saves message history in MongoDB for reference and analysis.  
+- 🤖 **AI-Powered Responses** – Uses OpenAI to generate intelligent replies.  
+- 🛒 **Order & Inquiry Handling** – Manages product inquiries and order placements efficiently.  
+
+---
+
+## 🎥 Video Project Demonstration  
+
+**Link:** [Watch Here](https://drive.google.com/file/d/1i1OxbHqiaC0RVuhrh1tcw2HYOWyoghWo/view?usp=sharing)  
+
+---
+
+## 📸 Screenshots  
+
+![System Preview](https://github.com/user-attachments/assets/bfb4fbf4-8814-4996-ad4d-7032c6d982c1)  
+
+📄 **Postman API Documentation:** [View Here](https://documenter.getpostman.com/view/40519609/2sAYdmknjb)  
+
+---
+
+## 🔧 Environment Setup  
+
+### **1️⃣ Install Dependencies**  
+
+Before running the project, navigate to the project directory and install dependencies using:  
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm run ngrok
