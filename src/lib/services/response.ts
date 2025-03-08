@@ -131,9 +131,9 @@ export const determineResponse = async (messages: any): Promise<string> => {
     return `Sorry, I didn't understand that. Here are the available commands:\n\n` +
       `📌 *Available Commands:*\n` +
       `1️⃣ *List products:* 🏷️ Type: *List products*\n` +
-      `2️⃣ *Check stock:* 🔎 Type: *Do you have iPhone 15?*\n` +
-      `3️⃣ *Check price:* 💰 Type: *What's the price of iPhone 15?*\n` +
-      `4️⃣ *Order an item:* 🛒 Type: *Order 2 iPhone 15*\n\n` +
+      `2️⃣ *Check stock:* 🔎 Type: *Do you have Fragrant Rice?*\n` +
+      `3️⃣ *Check price:* 💰 Type: *What's the price of Fragrant Rice?*\n` +
+      `4️⃣ *Order an item:* 🛒 Type: *Order 2 Fragrant Rice*\n\n` +
       `Happy shopping! 😊`;
   } catch (error) {
     console.error("Error in determineResponse:", error);

@@ -71,11 +71,11 @@ export async function POST(req: NextRequest) {
             `1️⃣ *List all products:* 🏷️\n` +
             `   👉 Type: *List products*\n\n` +
             `2️⃣ *Check if an item is in stock:* 🔎\n` +
-            `   👉 Type: *Do you have iPhone 15?*\n\n` +
+            `   👉 Type: *Do you have Fragrant Rice?*\n\n` +
             `3️⃣ *Get the price of an item:* 💰\n` +
-            `   👉 Type: *What's the price of iPhone 15?*\n\n` +
+            `   👉 Type: *What's the price of Fragrant Rice?*\n\n` +
             `4️⃣ *Place an order:* 🛒\n` +
-            `   👉 Type: *Order 2 iPhone 15*\n\n` +
+            `   👉 Type: *Order 2 Fragrant Rice*\n\n` +
             `✨ Feel free to ask anything! Happy shopping! 😊`;
             await sendMessage(senderId, welcomeMessage);
           } else {
