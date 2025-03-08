@@ -2,17 +2,17 @@ import Inventory from "./models/Inventory";
 
 export const initInventory = async () => {
   const items = [
-    { item: "iPhone 14", price: 999, stock: 20 },
-    { item: "iPhone 14 Pro", price: 999, stock: 30 },
-    { item: "iPhone 14 Pro Max", price: 999, stock: 40 },
-    { item: "iPhone 15", price: 999, stock: 50 },
-    { item: "iPhone 15 Pro", price: 999, stock: 60 },
-    { item: "iPhone 15 Pro Max", price: 999, stock: 70 },
-    { item: "iPhone 16", price: 999, stock: 80 },
-    { item: "iPhone 16 Pro", price: 999, stock: 90 },
-    { item: "iPhone 16 Pro Max", price: 999, stock: 100 },
-    { item: "Galaxy S22", price: 799, stock: 110 },
-    { item: "Pixel 7", price: 599, stock: 0 },
+    { item: "Jasmine Rice", price: 50, stock: 100 },
+    { item: "Basmati Rice", price: 60, stock: 80 },
+    { item: "Brown Rice", price: 45, stock: 90 },
+    { item: "White Rice", price: 40, stock: 120 },
+    { item: "Black Rice", price: 70, stock: 50 },
+    { item: "Red Rice", price: 65, stock: 60 },
+    { item: "Glutinous Rice", price: 55, stock: 70 },
+    { item: "Wild Rice", price: 75, stock: 40 },
+    { item: "Parboiled Rice", price: 48, stock: 110 },
+    { item: "Sushi Rice", price: 58, stock: 30 },
+    { item: "Arborio Rice", price: 62, stock: 20 },
   ];
 
   for (const item of items) {
